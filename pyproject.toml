@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pathtracer"
+version = "0.1.0"
+description = ""
+authors = ["npielawski <nicolas@pielawski.fr>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+jupyter = "^1.0.0"
+numpy = "^1.19.0"
+matplotlib = "^3.2.2"
+numba = "^0.50.0"
+scipy = "^1.5.0"
+icc_rt = "^2020.0.133"
+scikit-image = "^0.17.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
